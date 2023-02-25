@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 10px;
+    display: flex;
+    background-color: #84000F;
+    padding: 20px;
+    color: white;
+}
+
+.logo-container{
+    width: 40%;
+}
+
+.nav-links{
+    text-align: right;
+    width: 60%;
+}
+
+.nav-links a{
+    margin-left: 10px;
+    color: lightgray;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-news{
+    display: flex;
+    margin: 10px;
+    background-color: #AEDADB;
+}
+
+.news-img{
+    width: 50%;
+}
+
+.vsimage{
+    width: 95%;
+    margin: 10px;
+}
+
+.news-text{
+    width: 50%;
+}
+
+.latest{
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card-image{
+
+}
+.card-content{
+    padding: 20px;
+}
+.image{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    font-size: 20px;
+}
+.card-button{
+    background-color: #84000F;
+    color: white;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border: 0px;
+    border-radius: 5px;
+}
